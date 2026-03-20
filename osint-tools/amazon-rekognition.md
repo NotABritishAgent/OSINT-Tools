@@ -19,7 +19,7 @@ description: >-
 
 ### **What does Amazon Rekognition do?**&#x20;
 
-Amazon Rekognition is a cloud-based computer vision service that uses machine learning to analyse images and videos for objects, faces, text, moderation labels, and other visual content. IT can perform face comparison and (in some regions and configurations) facial recognition against stored face collections.&#x20;
+Amazon Rekognition is a cloud based computer vision service that uses machine learning to analyse images and videos for objects, faces, text, moderation labels, and other visual content. IT can perform face comparison and (in some regions and configurations) facial recognition against stored face collections.&#x20;
 
 [Features](https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/241759550655206) include the ability to:
 
