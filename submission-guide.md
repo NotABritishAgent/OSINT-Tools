@@ -18,6 +18,6 @@ Our team will review submissions and add verified tools to the resource, helping
 
 Spotted outdated info or have more details about a tool? You can help improve our OSINT resource!&#x20;
 
-Submit edits using this Google Form: [Edit a Tool](https://forms.gle/Ae8R4QPuJyfz5Skb6)
+**Submit edits using this Google Form:** [Edit a Tool](https://forms.gle/Ae8R4QPuJyfz5Skb6)
 
 Your contributions help keep the resource accurate, reliable, and useful for everyone in the community.
