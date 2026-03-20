@@ -7,12 +7,14 @@ on:
 jobs:
   create-change-request:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - name: Create GitBook Change Request
         run: |
-          curl -X POST "https://api.gitbook.com/v1/spaces/${{ secrets.GITBOOK_SPACE_ID }}/change-requests" \
+          RESPONSE=$(curl -sS --fail -X POST "https://api.gitbook.com/v1/spaces/${{ secrets.GITBOOK_SPACE_ID }}/change-requests" \
             -H "Authorization: Bearer ${{ secrets.GITBOOK_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d '{
               "subject": "${{ github.event.pull_request.title }} (#${{ github.event.pull_request.number }})"
-            }'
+            }')
+          echo "GitBook response: $RESPONSE"
