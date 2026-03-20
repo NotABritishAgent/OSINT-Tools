@@ -1,0 +1,11 @@
+# Email Address OSINT
+
+Email OSINT focuses on investigating email addresses to uncover associated accounts, breaches, and online activity. These tools help investigators trace where an email has been used, identify linked profiles, and detect potential security or fraud risks.
+
+| Tool  | Link                                     |
+| ----- | ---------------------------------------- |
+| Ghunt | [Find out more](../osint-tools/ghunt.md) |
+|       |                                          |
+|       |                                          |
+|       |                                          |
+|       |                                          |
